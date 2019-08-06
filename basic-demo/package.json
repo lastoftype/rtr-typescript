@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "./node_modules/.bin/tsc ./src/*.ts --outDir ./dist/ --watch",
+    "build": "./node_modules/.bin/tsc ./src/*.ts --outDir ./dist/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.0.0",
     "typescript": "^3.5.3"
   }
 }
