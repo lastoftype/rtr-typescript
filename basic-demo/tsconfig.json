@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": ["dom", "es6"],
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "strictNullChecks": false,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": false,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "noImplicitAny": false
+  },
+  "compileOnSave": false,
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "*.js"]
+}
